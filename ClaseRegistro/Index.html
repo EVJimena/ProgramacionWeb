@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<header>
+    <h1>Formulario de registro</h1>
+</header>
+<body>
+    <main>
+        <form action="">
+            <label for="nombre">Nombre: </label>
+            <input required autocomplete="name" id="nombre"type="text" placeholder="Escribe tu nombre">
+            <br> <br>
+
+            <label for="apellidos">Apellidos: </label>
+            <input required autocomplete="" id="apellidos"type="text" placeholder="Escribe tus apellidos">
+            <br><br>
+            
+            <label for="sexo">Sexo: </label>
+            <input type="radio" value="mujer" name="sexoooo" id="Mujer">
+            <label for="Mujer">Mujer</label> 
+            <input type="radio" value="hombre" name="sexoooo" id="Hombre">
+            <label for="Hombre">Hombre</label> 
+            <br><br>
+
+            <label for="correo">Correo: </label>
+            <input required autocomplete="" id="correo"type="email" placeholder="Escribe tu correo">
+            <br><br>
+
+            <label for="poblacion">Población: </label>
+            <select name="select">
+                <option value="value1">Alicante</option>
+                <option value="value2" selected>Usted</option>
+                <option value="value3">Si c:</option>
+            </select>
+            <br> <br>
+
+            <label for="descri">Descripción: </label>
+              <textarea name="descri" rows="7" cols="60"></textarea>
+            <br><br>
+
+            <input type="checkbox" name="opcion" value="oferta" id="oferta">
+            <label for="oferta">Deseo recibir información sobre novedades y ofertas</label>
+            <br><br>
+            <input type="checkbox" name="opciones" value="condi" id="condi">
+            <label for="condi">Declaro haber leido y aceptar las condiciones generales del programa
+            y la normativa sobre protección de datos
+            </label>
+            <br><br>
+            <input type="submit">
+
+        </form>
+    </main>
+</body>
+</html>
